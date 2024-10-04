@@ -1,5 +1,6 @@
 package poly.car0;
 
+//이렇게 코드를 짜면 생기는 문제 -> 차가 추가되면 Driver 클래스내에서도 변경을 해야함.
 public class Driver {
     private K3Car k3Car;
     private Model3Car model3Car; //추가
