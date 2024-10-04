@@ -14,5 +14,11 @@ public class CarMain1 {
         Model3Car model3Car = new Model3Car();
         driver.setCar(model3Car);
         driver.drive();
+
+        //차량 추가(newCar)
+        //Driver의 코드를 손대지 않고, 새로운 차량을 추가!
+        NewCar newCar = new NewCar();
+        driver.setCar(newCar);
+        driver.drive();
     }
 }
