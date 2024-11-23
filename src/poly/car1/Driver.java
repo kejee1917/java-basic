@@ -6,7 +6,7 @@ public class Driver {
 
     public void setCar(Car car) {
         System.out.println("자동차를 설정 : " + car);
-        System.out.println("~9~~~9~");
+        System.out.println("~9~jhgg~~9~");
         this.car = car;
     }
 
